@@ -1,0 +1,38 @@
+Package: EZTr
+Type: Package
+Title: Automated Discretization of Transpiration Features from High-Throughput Phenotyping Data
+Version: 0.1.0
+Author: Soumyashree Kar
+Maintainer: Soumyashree Kar <ksoumya2301@gmail.com>
+Description: Converts gravimetric sensors (installed at the High-Throughput Phenotyping platforms) data
+             to evapotranspiration and transpiration profiles. Extracts 'transpiration restriction to VPD' features
+             and computes feature heritability.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports: readxl, 
+         hms, 
+         xts, 
+         plyr, 
+         dplyr, 
+         zoo, 
+         h2o, 
+         sqldf, 
+         ggplot2, 
+         signal, 
+         gridExtra, 
+         tidyverse, 
+         e1071, 
+         wavelets,
+         lubridate, 
+         BioFTF, 
+         plantecophys, 
+         highfrequency, 
+         stringr, 
+         psych, 
+         nonlinearTseries, 
+         tsfeatures, 
+         splitstackshape, 
+         mgcv,
+         PerformanceAnalytics,
+         easypackages
