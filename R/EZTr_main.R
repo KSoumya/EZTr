@@ -1,5 +1,10 @@
 ##################
 # EZTr_main #
+
+# This framework is developed as part of the research article:
+# Automated Discretization of ‘Transpiration Restriction to Increasing VPD’ Features from Outdoors High-Throughput Phenotyping Data
+#
+# Soumyashree Kar, Ryokei Tanaka, Lijalem Balcha Korbu, Jana Kholová, Hiroyoshi Iwata, Surya S. Durbha, J. Adinarayana, Vincent Vadez
 ##################
 
 #' HTP data processing
@@ -81,7 +86,7 @@
 #' featureH2 = Matrix of each feature heritability estimate on each day,
 #' eachFeature_TS = List of each feature's time series for all genotypes.
 #'
-#' @author Soumyashree Kar
+#' @author Soumyashree Kar email<ksoumya2301@gmail.com>
 #'
 #' @references
 #'
