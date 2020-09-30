@@ -10,13 +10,12 @@ followed by computation of feature heritability.
 
 The entire process comprises four steps: 
 Step1 - Conversion of LC data to ETr.
-Step2 - Calculation of reference i.e. Penman Monteith ET for the given weather
-condition, and filtering ETr based on reference ET.
+Step2 - Calculation of reference i.e. Penman Monteith ET for the given weather condition, and filtering ETr based on reference ET.
 Step3 - Generating smooth ETr time series. 
 Step4 - Extraction of Tr from smooth ETr, Tr features and each feature's broad-sense heritability estimate.
 
 Functions used for each step:
-Step1 - extractRawLCmatrix(), curateRawLCgetET(), filterETrExtremeCols()
-Step2 - extractWthrVar(), prepcsWthr(), calculateETref(),generateETrRatio(), genThreshVal(), dataPART(), threshETr(), ordFiltETr()
-Step3 - smoothETr()
-Step4 - calculateTr(), getFeatures(), getFeatureHe()
+Step1 - extractRawLCmatrix(), curateRawLCgetET(), filterETrExtremeCols().
+Step2 - extractWthrVar(), prepcsWthr(), calculateETref(),generateETrRatio(), genThreshVal(), dataPART(), threshETr(), ordFiltETr().
+Step3 - smoothETr().
+Step4 - calculateTr(), getFeatures(), getFeatureHe().
