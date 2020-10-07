@@ -1,5 +1,5 @@
 Package: EZTr
-Type: Package
+Type: Pipeline
 Title: Automated Discretization of Transpiration Features from High-Throughput Phenotyping Data
 Version: 0.1.0
 Author: Soumyashree Kar
@@ -23,7 +23,6 @@ Imports: readxl,
          gridExtra, 
          tidyverse, 
          e1071, 
-         wavelets,
          lubridate, 
          BioFTF, 
          plantecophys, 
