@@ -28,8 +28,8 @@ Step4 - calculateTr(), getFeatures(), getFeatureHe().
 5. Plant eye 
 Merge all the above data files into R data by executing the script createExpData.R to generate corresponding RData
 
-# Create folder: results, and within that 2 sub-folders;
-rawFeaturesTimeSeries and smthFeaturesTimeSeries 
+# Results folder
+In the results folder, create 2 sub-folders: rawFeaturesTimeSeries and smthFeaturesTimeSeries 
 
 # EZTr_main.R execution
 Run the pipeline script EZTr_main.R using the following experiment-specific inputs:
