@@ -1,5 +1,6 @@
 ##################
 # EZTr_main #
+# Author: Soumyashree Kar
 
 # This framework is developed as part of the research article:
 # Automated Discretization of ‘Transpiration Restriction to Increasing VPD’ Features from Outdoors High-Throughput Phenotyping Data
